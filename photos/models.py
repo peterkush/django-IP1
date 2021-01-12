@@ -81,14 +81,11 @@ class Category(models.Model):
     @classmethod 
     def save_category(self):
         self.save()
-
     @classmethod 
     def delete_category(self):
         self.delete()
-
     @classmethod 
     def update_cate(cls, id, new_cate):
         cls.objects.filter(id=id).update(cate=new_cate)
-
     def __str__(self):
         return f"{self.cate}"

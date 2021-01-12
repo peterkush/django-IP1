@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
 <header>
-    <div class="container header-content">
-        <h1>MY GALLERY</h1>
-        <h3>The Sky Is The Ultimate Art Gallery Above US.</h3>
+    <div class="container-fluid header-content" style="background-color: aqua;color:white;height: 70vh; width:100%;">
+        <h1>MY PHOTOS</h1>
+        <h3 style="font-style: italic;">"I don’t trust words. I trust pictures".</h3>
         <form class="navbar-form" role="search" action="{% url 'search_results' %}" METHOD="GET">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search Item" name="image">
                 <div class="input-group-btn">
-                    <button class="btn btn-default" type="Submit">Go</button>
+                    <button class="btn btn-default" type="Submit">Results</button>
                 </div>
             </div>
         </form>

@@ -24,14 +24,14 @@
 .navbar{
     background-color: blue !important;
 }
-header {
+/* header {
 background-image: url('https://bit.ly/2wlfSH3');
 height: 70vh;
 background-repeat: no-repeat;
 background-position: center;
 opacity:0.9;
 background-size: cover;
-}
+} */
 .header-content {
     display: flex;
     justify-content: center;
