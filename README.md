@@ -18,6 +18,7 @@ Is a photo gallery web application to showcase beautiful pictures. Users get can
 
 
 ##### Cloning the repository:
+https://github.com/peterkush/django-IP1
 
 
 #### Install and activate Virtual
