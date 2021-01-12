@@ -38,6 +38,7 @@ class Images(models.Model):
     def __str__(self):
         return self.name 
 
+
 class Location(models.Model):
     locations=(
         ('Nairobi','Nairobi'),
