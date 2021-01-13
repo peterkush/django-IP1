@@ -14,10 +14,10 @@ Is a photo gallery web application to showcase beautiful pictures. Users get can
 ~ Admin can upload images from a django dashboard
 
 ### Deployed link
-
-
+https://pitcth-12.herokuapp.com/
 
 ##### Cloning the repository:
+
 https://github.com/peterkush/django-IP1
 
 
